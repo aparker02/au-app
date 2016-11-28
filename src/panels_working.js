@@ -47,6 +47,7 @@ export class Panels {
     });
     myLayout.registerComponent('chart', function(container) {
       container.getElement()[0].setAttribute('id', 'chart-div');
+      newChart.waitForChartDiv();
       newChart.createChart();
     });
 

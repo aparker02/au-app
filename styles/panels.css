@@ -6,3 +6,19 @@
     padding: 0;
     overflow: hidden;
 }
+
+#mapSection,
+#map-div,
+#chartSection,
+#chart-div {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* need to figure out standards */
+
+.lm_popin {
+    background-color: black;
+}
